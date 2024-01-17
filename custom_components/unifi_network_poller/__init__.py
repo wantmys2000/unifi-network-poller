@@ -3,13 +3,12 @@ from __future__ import annotations
 
 from typing import Any
 
-from pyunifi.controller import APIError, Controller
-from requests.exceptions import ConnectTimeout
-
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import CONF_HOST, CONF_PASSWORD, CONF_USERNAME, Platform
 from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import ConfigEntryAuthFailed, ConfigEntryNotReady
+from pyunifi.controller import APIError, Controller
+from requests.exceptions import ConnectTimeout
 
 from .const import DOMAIN
 from .coordinator import MyCoordinator

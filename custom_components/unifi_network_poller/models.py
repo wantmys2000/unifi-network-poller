@@ -4,11 +4,10 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from typing import Any
 
-from pyunifi.controller import Controller
-
 from homeassistant.components.sensor import SensorEntityDescription
 from homeassistant.helpers.device_registry import DeviceInfo
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator
+from pyunifi.controller import Controller
 
 
 @dataclass

@@ -5,9 +5,8 @@ import logging
 import time
 
 import async_timeout
-from pyunifi.controller import APIError, Controller
-
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
+from pyunifi.controller import APIError, Controller
 
 _LOGGER = logging.getLogger(__name__)
 
