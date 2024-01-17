@@ -1,0 +1,16 @@
+{
+  "domain": "unifi_network_poller",
+  "name": "Unifi Network Poller",
+  "codeowners": [
+    "@wantmys2000"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/wantmys2000/unifi-network-poller",
+  "iot_class": "local_polling",
+  "requirements": [
+    "pyunifi==2.21"
+  ],
+  "loggers": ["unifi_network_poller"],
+  "version": "1.0.0"
+}
